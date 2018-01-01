@@ -1,0 +1,29 @@
+{
+  "name": "upworker",
+  "version": "1.0.0",
+  "description": "Upwork RSS feed scraper featuring audible alerts",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "decode-html": "^1.0.2",
+    "feedparser": "^2.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "play-sound": "^1.1.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node index.js"
+  },
+  "keywords": [
+    "upwork",
+    "rss",
+    "scrape",
+    "alert",
+    "feed",
+    "notify"
+  ],
+  "author": "Vincent Flyson",
+  "license": "UNLICENSED"
+}

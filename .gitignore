@@ -1,0 +1,10 @@
+known
+package-lock.json
+config.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
