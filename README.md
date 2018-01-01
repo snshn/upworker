@@ -18,6 +18,7 @@ Command to generate text-to-speech files:
     pico2wave [keyword] -w=sounds/t2s/[keyword].wav
 
 Installation:
+
     make config
     npm i
 
