@@ -1,6 +1,7 @@
 {
   "name": "upworker",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "type": "module",
   "description": "Upwork RSS feed scraper featuring audible alerts",
   "main": "index.js",
   "dependencies": {
@@ -10,9 +11,9 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "play-sound": "^1.1.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "say": "^0.16.0"
   },
-  "devDependencies": {},
   "scripts": {
     "run": "node index.js"
   },
@@ -24,6 +25,6 @@
     "feed",
     "notify"
   ],
-  "author": "Vincent Flyson",
-  "license": "UNLICENSED"
+  "author": "Sunshine <sunshine@uberspace.net>",
+  "license": "CC0-1.0"
 }

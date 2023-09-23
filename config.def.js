@@ -1,5 +1,3 @@
-'use strict'
-
 const config = {
   'urls': [
     // Fill this array with RSS links taken from Upwork's search results page
@@ -11,7 +9,7 @@ const config = {
     'javascript'
   ],
   'expiration': 2 * 24 * 60 * 60 * 1000, // Ignore items older than two days
-  'interval': 10 // Seconds between requests, perhaps can be less but I wouldn't risk
-}
+  'interval': 10, // Seconds between requests, perhaps can be less but I wouldn't risk
+};
 
-module.exports = config
+export default config;

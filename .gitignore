@@ -1,10 +1,8 @@
-known
-package-lock.json
-config.js
+.DS_Store
 
-# Logs
-*.log
-npm-debug.log*
+# Configuration files
+config.js
+known.txt
 
 # Dependency directories
 node_modules/
