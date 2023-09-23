@@ -25,16 +25,6 @@ to you either to use it or not with your own Upwork account.
 1. Save the file and run the scraper
 
 
-## Platform-specific installation
-
-### macOS
-
-```console
-brew install pulseaudio
-brew services start pulseaudio
-```
-
-
 ## How to run using Docker
 
 ```console
